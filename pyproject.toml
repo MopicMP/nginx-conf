@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nginx-conf"
+version = "1.0.0"
+description = "Generate nginx config for common setups"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [{name = "raccoonette"}]
+
+[project.urls]
+Homepage = "https://github.com/MopicMP/nginx-conf"
